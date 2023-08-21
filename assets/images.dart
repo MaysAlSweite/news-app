@@ -9,4 +9,5 @@ static const String item7='https://cloudfront-us-east-2.images.arcpublishing.com
 static const String item8='https://www.usatoday.com/gcdn/presto/2021/02/02/USAT/6a69492f-7bdf-4671-9e74-687646a301fe-VPC_BEZOS_RESIGNS_AMAZON_CEO_wide_getty.jpg?crop=1911,1075,x4,y0&width=1911&height=1075&format=pjpg&auto=webp';
 static const String item9='https://www.wellesley.edu/sites/default/files/styles/news_refresh_hero/public/assets/dailyshot/blm_intl.jpg?itok=Yo9QezLG';
 static const String item10='https://static.scientificamerican.com/sciam/cache/file/EF37310E-B02A-4061-A0B0E4D182C0228C_source.jpg';
+
 }

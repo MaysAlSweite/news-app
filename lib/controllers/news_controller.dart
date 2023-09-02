@@ -1,6 +1,9 @@
+import 'dart:collection';
+import 'dart:typed_data';
+
 import 'package:news_app/models/news_model.dart';
-import 'material/descriptions.dart';
-import 'material/images.dart';
+import '../material/descriptions.dart';
+import '../material/images.dart';
 
 class NewsController {
   static final List<NewsModel> _news = [
@@ -15,4 +18,9 @@ class NewsController {
     NewsModel(title: 'Protests', description: Descriptions.item9, url: Images.item9),
     NewsModel(title: 'Scientists', description: Descriptions.item10, url: Images.item10),
   ];
+
+  static int get dataLength=> _news.length;
+  static NewsModel getNews(int index)=> _news.elementAt(index);
+  static UnmodifiableListView<NewsModel> get dataList =>
+  UnmodifiableListView(_news);
 }

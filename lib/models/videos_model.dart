@@ -1,11 +1,11 @@
 class VideosModel{
   String title;
-  String description;
-  String url;
+  String videoUrl;
+  String imageUrl;
 
   VideosModel({
     required this.title,
-    required this.description,
-    required this.url,
+    required this.videoUrl,
+    required this.imageUrl,
   });
 }

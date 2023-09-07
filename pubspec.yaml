@@ -44,9 +44,9 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 flutter_launcher_icons:
-  android: "launcher_icon"
+  android: true
   ios: true
-  image_path: "https://t3.ftcdn.net/jpg/00/88/43/58/360_F_88435823_c3MiOAvV8gFwtQzTGlsLt6I6mFvQuQmN.jpg"
+  image_path: "assets/logo/blue-live-news-logo-flat-style-vector-20910112.jpg"
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -66,8 +66,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - assets/
+  assets:
+    - assets/logo/
   #   - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see

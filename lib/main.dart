@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/home_screen.dart';
+import 'package:news_app/custom_components/home_screen.dart';
 //import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 //import 'package:google_fonts/google_fonts.dart';
 void main(List<String> args) {

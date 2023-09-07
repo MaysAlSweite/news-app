@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:news_app/models/news_model.dart';
-import 'package:news_app/web_view.dart';
+import 'package:news_app/custom_components/web_view.dart';
 
 class NewsCard extends StatelessWidget {
   const NewsCard({super.key, required this.model});

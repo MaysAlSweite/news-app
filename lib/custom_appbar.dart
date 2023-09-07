@@ -9,7 +9,7 @@ class CustomAppBar
   @override
   Widget build(BuildContext context) {
     return  AppBar(
-      title: Text('ABC News',style: GoogleFonts.belgrano(color: Colors.blue.shade900),),
+      title: Text('ABC News',style: GoogleFonts.belgrano(color: Colors.blue.shade900,fontSize: 25),),
       elevation: 10,
       centerTitle: true,
       backgroundColor: Colors.white,

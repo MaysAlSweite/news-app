@@ -44,7 +44,7 @@ class VideoCard extends StatelessWidget {
                   child: Center(
                       child: Text(
                     model.title,
-                    style: GoogleFonts.aladin(),
+                    style: GoogleFonts.aladin(fontSize: 20),
                   )))
             ],
           ),
